@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    height: 5rem;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+
+.main-header__nav-items {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.main-header__nav-items li {
+    margin: 0 2rem;
+}
+
+.main-header__nav-items li a {
+    text-decoration: none;
+    color: #585833;
+    text-transform: uppercase;
+}
+
+.main-header__nav-items li a:hover {
+    color: white;
+}
+
+main {
+    padding: 0 2rem;
+}
